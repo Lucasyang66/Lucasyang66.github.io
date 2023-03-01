@@ -1,0 +1,74 @@
+h1 {text-align: center;
+font-size:5vh;}
+span {text-align: center;}
+button {
+    text-align: center; 
+    padding: 2vh; 
+    width:30%;
+}
+div {text-align: center;}
+body {
+    background-color: #e2e2e2;
+}
+.btndiv{
+    margin-block: 1%;
+}
+.next:hover{
+    transition: 0.3s;
+    transform: translateY(0.1vh);
+    box-shadow: 0 0.6vh 0 0 #008609;
+    background-color: #00920a;
+}
+.choice:hover{
+    transition: 0.2s;
+    transform: translateY(0.1vh);
+    box-shadow: 0 0.6vh 0 0 #06457b;
+    background-color: #094f8b;
+}
+.choice:active{
+    transition: 0.15s;
+    transform: translateY(0.5vh);
+    box-shadow:0 0.2vh 0 0 #06457b;
+}
+.next:active{
+    transition: 0.15s;
+    transform: translateY(0.5vh);
+    box-shadow: 0 0.2vh 0 0 #008609;
+}
+.btn{
+    transition-duration: 0.4s;
+    font-size:4vh;
+    color:white;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.next{
+    box-shadow: 0 0.7vh 0 0 #008609;
+    border: #00ca0d;
+    background-color: #00ca0d;
+    margin:0.8vh;
+}
+.choice{
+    border: #0D6CBE;
+    box-shadow: 0 0.7vh 0 0 #06457b;
+    background-color: #0D6CBE;
+    padding: 3.5vh;
+    margin:0.8vh;
+}
+.whitebackgroud{
+    background-color: #ffffff;
+    padding-top:3vh;
+    margin-block-start: 5%;
+    margin-inline-start: 26%;
+    margin-inline-end: 26%;
+    border-radius: 1%;
+    padding-bottom: 3vh;
+}
+.text{
+    margin-top:50px;
+    padding:15px;
+    color:black;
+    font-weight:bold;
+    font-size:300%;
+    padding-left:30px
+}
